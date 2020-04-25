@@ -35,29 +35,35 @@ echo 'eval "$(rbenv init -)"' >> ~/.bashrc```
 Restart BASH with the new environmental variables.
 
 ```terminal
-source ~/.bashrc```
+source ~/.bashrc
+```
 
 Now we install the latest stable release.  At the time of the writing of this article it was 2.7.1.  Be sure to go to https://www.ruby-lang.org/en/ to check on the latest stable.
 
 ```terminal
-rbenv install 2.7.1```
+rbenv install 2.7.1
+```
 
 Now we set it as the global default version for our ruby environment.
 
 ```terminal
-rbenv global 2.7.1```
+rbenv global 2.7.1
+```
 
 Verify the ruby version.
 
 ```terminal
-ruby -v```
+ruby -v
+```
 
 Output should look similar to this:
 
 ```terminal
-ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-linux]```
+ruby 2.7.1p83 (2020-03-31 revision a0c7c23c9c) [x86_64-linux]
+```
 
 Lastly, we install rubygems.
 
 ```terminal
-sudo apt install rubygems```
+sudo apt install rubygems
+```
