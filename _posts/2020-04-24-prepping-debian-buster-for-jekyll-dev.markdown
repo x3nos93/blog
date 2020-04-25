@@ -1,6 +1,6 @@
 # Preparing your Debian Buster Distro for Jekyll Development
 
-NOTE: This was tested on ![#!++](https://crunchbangplusplus.org/) running Debian Buster using the Bourne Again Shell (BASH)
+NOTE: This was tested on [#!++](https://crunchbangplusplus.org/) running Debian Buster using the Bourne Again Shell (BASH)
 
 The first step will be to remove the default ruby and install dependencies for compiling the latest stable release.
 
