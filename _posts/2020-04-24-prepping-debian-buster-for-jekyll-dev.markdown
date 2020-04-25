@@ -1,6 +1,6 @@
 # Preparing your Debian Buster Distro for Jekyll Development
 
-NOTE: This was tested on #!++ running Debian Buster using the Bourne Again Shell (BASH)
+NOTE: This was tested on ![#!++](https://crunchbangplusplus.org/) running Debian Buster using the Bourne Again Shell (BASH)
 
 The first step will be to remove the default ruby and install dependencies for compiling the latest stable release.
 
@@ -12,7 +12,7 @@ Before installing dependencies, update apt.
 
 ```terminal
 sudo apt update
-``` 
+```
 
 Next, install dependencies.
 
@@ -26,7 +26,7 @@ Now we will curl the sources and install ruby. Warning, this could take some tim
 curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash -
 ```
 
-Next we add $HOME/.rbenv/bin to your PATH. 
+Next we add $HOME/.rbenv/bin to your PATH.
 
 ```terminal
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
