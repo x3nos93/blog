@@ -2,35 +2,41 @@
 
 NOTE: This was tested on #!++ running Debian Buster using the Bourne Again Shell (BASH)
 
-The first step will be to remove ruby and install dependencies.
+The first step will be to remove the default ruby and install dependencies for compiling the latest stable release.
 
 ```terminal
-sudo apt remove ruby```
+sudo apt remove ruby
+```
 
 Before installing dependencies, update apt.
 
 ```terminal
-sudo apt update``` 
+sudo apt update
+``` 
 
 Next, install dependencies.
 
 ```terminal
-sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev```
+sudo apt install git curl libssl-dev libreadline-dev zlib1g-dev autoconf bison build-essential libyaml-dev libreadline-dev libncurses5-dev libffi-dev libgdbm-dev
+```
 
 Now we will curl the sources and install ruby. Warning, this could take some time to compile and there is a period at the beginning of the process where there is no on screen output. I suggest grabbing your favorite tea and have a cuppa!
 
 ```terminal
-curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash -```
+curl -sL https://github.com/rbenv/rbenv-installer/raw/master/bin/rbenv-installer | bash -
+```
 
 Next we add $HOME/.rbenv/bin to your PATH. 
 
 ```terminal
-echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc```
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+```
 
 And put a line in your ~/.bashrc file to start ruby.
 
 ```terminal
-echo 'eval "$(rbenv init -)"' >> ~/.bashrc```
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
+```
 
 Restart BASH with the new environmental variables.
 
