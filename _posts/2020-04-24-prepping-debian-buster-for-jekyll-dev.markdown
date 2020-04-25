@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Prepping Debian Buster for Jekyll Development"
-date:   2020-04-20 04:20:00 -0600
+date:   2020-04-24 04:20:00 -0600
 categories: jekyll ruby github blogging debian bash crunchbangplusplus
 ---
 
