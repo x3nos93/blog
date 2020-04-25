@@ -1,4 +1,9 @@
-# Preparing your Debian Buster Distro for Jekyll Development
+---
+layout: post
+title:  "Prepping Debian Buster for Jekyll Development"
+date:   2020-04-20 04:20:00 -0600
+categories: jekyll ruby github blogging debian bash crunchbangplusplus
+---
 
 NOTE: This was tested on [#!++](https://crunchbangplusplus.org/) running Debian Buster using the Bourne Again Shell (BASH)
 
