@@ -11,7 +11,7 @@ Some of the companies I have contracted with and worked directly for:
 * Siemens GmbH
 * Cetecom GmbH
 * Biologische Heilmittel Heel GmbH
-* PlanetMagpie Internet Communications, now PlanetMagpie Inc.
+* Magpie Internet Communications, now PlanetMagpie Inc.
 * Endsight of Berkeley California
 * SimpliDigi, an eLearning platform
 * INFINIT Consulting
