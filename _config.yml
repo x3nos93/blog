@@ -28,7 +28,7 @@ twitter_username: ContraryLuddite
 github_username:  x3nos93
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: minima
 plugins:
   - jekyll-feed
 
