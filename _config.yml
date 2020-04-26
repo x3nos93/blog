@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: William Pritchard | Freelance Webmaster and Developer
+title: William Pritchard
 email: 0x3nos@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Slaying grue since 1992.
